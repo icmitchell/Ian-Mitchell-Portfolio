@@ -11,6 +11,11 @@ p a{
   font-wieght:bold;
 }
 /* --------------- Nav --------------- */
+.portfolioLink {
+  text-align: center;
+  align-content: center;
+}
+
 
 .navbar {
   padding: 0;
