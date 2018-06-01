@@ -63,9 +63,9 @@ crossorigin="anonymous"></script>
       <div class='container'>
         <div class="row">
           <div class="col-md-8 mwp-about-bkgrd">
-            <h2>Ian Mitchell</h2>
+            <h1>Ian Mitchell</h1>
             <p>
-              I'm a Full Stack Web Developer. I graduated from Northwestern University's School of Profesional Studies from a coding bootcamp. I have learned both front end and back end but particularly excell at back end technologies.
+              I'm a Full Stack Web Developer. I graduated from Northwestern University's School of Profesional Studies from a coding bootcamp. I have learned both front end and back end primarily in node.js frameworks. 
             </p>
             <p></p>
             <h4>Languages and Frameworks:</h4>
@@ -85,37 +85,32 @@ crossorigin="anonymous"></script>
       <div class="container">
         <div id="effect-1" class="effects clearfix">
           <div class="row">
+
             <div class="col-md-4">
               <div class="img">
                 <img src="Capture.PNG" alt="Ripe Tomatoes" class="img-responsive img-thumbnail">
-                <div class="overlay">
 
-                  <form method="get" action="https://infinite-wave-67208.herokuapp.com/">
-                      <button class="btn-primary portfolioLink">Live Site</button>
-                  </form>
-                  <form method="get" action="https://github.com/icmitchell/RipeTomatoes">
-                      <button class="btn-primary portfolioLink">Github Repo</button>
-                </form>
-                  <a class="close-overlay hidden">x</a>
+                <div class="overlay">
+                  <a data-toggle="modal" data-target="#RipeTomatoModal"> + </a>
                 </div>
+
                 <div class='description description_content'>
                   <h4>						Ripe Tomatoes		</h4>
                   <h5><i>React & Node.js</i></h5>
                 </div>
               </div>
             </div>
+          
+
+
             <div class="col-md-4">
               <div class="img">
                 <img src="Capture1.PNG" alt="" class="img-responsive img-thumbnail">
+
                 <div class="overlay">
-                  <form method="get" action="https://nameless-falls-24533.herokuapp.com/">
-                      <button class="portfolioLink">Live Site</button>
-                  </form>
-                  <form method="get" action="https://github.com/icmitchell/Locked-In">
-                      <button class="portfolioLink">Github Repo</button>
-                </form>
-                  <a class="close-overlay hidden">x</a>
+                  <a data-toggle="modal" data-target="#RipeTomatoModal"> + </a>
                 </div>
+
                 <div class='description description_content'>
                   <h4>						Locked-In 		</h4>
                   <h5> <i>Passport & Express session user authentication</i>
@@ -123,35 +118,33 @@ crossorigin="anonymous"></script>
                 </div>
               </div>
             </div>
+
+
             <div class="col-md-4">
               <div class="img">
                 <img src="Capture2.PNG" alt="" class="img-responsive img-thumbnail">
+
                 <div class="overlay">
-                    <form method="get" action="https://icmitchell.github.io/Traffic-Cameras/">
-                      <button class="portfolioLink">Live Site</button>
-                  </form>
-                  <form method="get" action="https://github.com/icmitchell/Traffic-Cameras">
-                      <button class="portfolioLink">Github Repo</button>
-                </form>
-                  <a class="close-overlay hidden">x</a>
+                  <a data-toggle="modal" data-target="#RipeTomatoModal"> + </a>
                 </div>
+
                 <div class='description description_content'>
                   <h4>						Traffic Cameras 		</h4>
                   <h5><i>Node.js & Google Maps Api</i></h5>
                 </div>
               </div>
             </div>
-            </div>
+
+
+          </div>
             <div class="row">
               <div class="col-md-4">
                 
-              <!--<div class="img">
-                <img src="" alt="" class="img-responsive img-thumbnail">
-              -->  <div class="overlay">
+                <div class="overlay">
                   <a href="#" class="expand"><i class="fa fa-fire"></i> </a>
                   <a class="close-overlay hidden">x</a>
                 </div>
-                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -196,9 +189,55 @@ crossorigin="anonymous"></script>
     <a href="#contact ">CONTACT</a>
   </footer>
 
-</html>
+
+<!-- modals -->
+  <div class="modal" id="RipeTomatoModal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+
+            <h4 class="modal-title">Ripe Tomatoes</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+          </div>
+          <div class="modal-body">
+            <p>This app is a better movie recommendation engine. I worked in a team of 5 people to develop Ripe Tomatoes and continue to integrate more features as time goes on.</p>
+            <p>I Focused primarily on the backend setup however I helped with react front end integration when my coworkers couldn't achieve what they wanted.</p>
+            <h2>Technologies Utilized:
+              <ul>
+                <li>React</li>
+                <li>Node.js</li>
+              </ul>
+            </h2>
+            <form method="get" action="https://infinite-wave-67208.herokuapp.com/">
+              <button class="btn-primary portfolioLink">Live Site</button>
+            </form><form method="get" action="https://github.com/icmitchell/RipeTomatoes">
+              <button class="btn-primary portfolioLink">Github Repo</button>
+            </form>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
+    <!-- <form method="get" action="https://nameless-falls-24533.herokuapp.com/">
+      <button class="portfolioLink">Live Site</button>
+  </form>
+  <form method="get" action="https://github.com/icmitchell/Locked-In">
+      <button class="portfolioLink">Github Repo</button>
+</form> -->
 
+
+<!-- <form method="get" action="https://icmitchell.github.io/Traffic-Cameras/">
+  <button class="portfolioLink">Live Site</button>
+</form>
+<form method="get" action="https://github.com/icmitchell/Traffic-Cameras">
+  <button class="portfolioLink">Github Repo</button>
+</form> -->
 
 </body>
+</html>
