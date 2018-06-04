@@ -17,17 +17,13 @@ crossorigin="anonymous"></script>
 
   <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
-      <a class="navbar-brand text-muted" href="#"> Ian Mitchell</a>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+      <a class="navbar-brand text-muted" href="#">Ian Mitchell</a>
       <div>
         <ul class="nav navbar-nav navbar-right">
-          <li> <a href="#about"> About </a>
-          </li>
-          <li> <a href="#portfolio">Portfolio</a>
-          </li>
-          <li> <a href="#contact"> Contact </a>
+          <li> 
+            <a href="#about">About</a>
+            -
+           <a href="#portfolio">Portfolio</a>
           </li>
         </ul>
       </div>
@@ -38,8 +34,8 @@ crossorigin="anonymous"></script>
     <article>
       <div class="container">
         <div class="row">
-          <div class=".col-md-6 .col-md-offset-3 text-center">
-  
+          <div class="col-md-3"></div>
+          <div class="col-md-6 col-md-offset-3 text-center">
             <h1>Ian Mitchell</h1>
             <h4>Full Stack Web Developer</h4>
             <div class="btn-group">
@@ -51,6 +47,7 @@ crossorigin="anonymous"></script>
               </a>
             </div>
           </div>
+          <div class="col-md-3"></div>
         </div>
       </div>
       </div>
@@ -65,16 +62,38 @@ crossorigin="anonymous"></script>
           <div class="col-md-8 mwp-about-bkgrd">
             <h1>Ian Mitchell</h1>
             <p>
-              I'm a Full Stack Web Developer. I graduated from Northwestern University's School of Profesional Studies from a coding bootcamp. I have learned both front end and back end primarily in node.js frameworks. 
+              I'm a Full Stack Web Developer, I love nature and music and strive to spend my free time immersed in either (or both). I graduated from Northwestern University's School of Profesional Studies from a coding bootcamp in May 2018. I have learned both front end and back end primarily in node.js frameworks.
             </p>
-            <p></p>
+
             <h4>Languages and Frameworks:</h4>
             <p>Javascript, JQuery, HTML5, CSS3, Bootstrap, React, Node.js, Express Servers, SQL and NoSQL databases, Passport.js, Docker Containers, C#, .NET frameworks, RabbitMQ</p>
+            <h2>Contact me</h2>
+            <p>ian.c.mitchell96@gmail.com</p>
+            <p>847-975-1560</p>
+            <div class="row">
+                <div class="col-md-5"></div>
+                <div class="btn-group col-md-4">
+                  <a href="https://github.com/icmitchell" target="_blank">
+                    <button class="btn "> <i class="fa fa-github "></i> Github</button>
+                  </a>
+                  <a href="https://www.linkedin.com/in/ianmitchell-55123/" target="_blank ">
+                    <button class="btn "><i class="fa fa-linkedin "></i> LinkedIn</button>
+                  </a>
+                </div>
+                <div class="col-md-3"></div>
+              </div>
           </div>
           <div class="col-md-4">
-            <img src="" alt="Ian Mitchell">
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <img id="IanPicture" src="IMG_5901.jpg" alt="Ian Mitchell">
           </div>
         </div>
+
+
       </div>
       </div>
     </article>
@@ -108,7 +127,7 @@ crossorigin="anonymous"></script>
                 <img src="Capture1.PNG" alt="" class="img-responsive img-thumbnail">
 
                 <div class="overlay">
-                  <a data-toggle="modal" data-target="#RipeTomatoModal"> + </a>
+                  <a data-toggle="modal" data-target="#LockedInModal"> + </a>
                 </div>
 
                 <div class='description description_content'>
@@ -125,7 +144,7 @@ crossorigin="anonymous"></script>
                 <img src="Capture2.PNG" alt="" class="img-responsive img-thumbnail">
 
                 <div class="overlay">
-                  <a data-toggle="modal" data-target="#RipeTomatoModal"> + </a>
+                  <a data-toggle="modal" data-target="#TrafficCameraModal"> + </a>
                 </div>
 
                 <div class='description description_content'>
@@ -152,92 +171,175 @@ crossorigin="anonymous"></script>
     </article>
   </section>
   
-  <section id="contact" data-type="background">
-    <article>
-      <div class="container">
-        <div class='row'>
-          <div class='mwp-bkgrd clearfix'>
-            <div class="col-md-2"></div>
-            <div class='col-md-8'>
-              <h2 class='text-center'>Contact me</h2>
-              <h3 class='text-center'>ian.c.mitchell96@gmail.com</h3>
-            </div>
-              <div class="col-md-2"></div>
-            <div class="row"></div>
-              <div class='col-md-2'></div>
-                <div class="col-md-8">
-                  <div class="btn-group">
-                    <a href="https://github.com/icmitchell" target="_blank">
-                      <button class="btn "> <i class="fa fa-github "></i> Github</button>
-                    </a>
-                    <a href="https://www.linkedin.com/in/ianmitchell-55123/" target="_blank ">
-                      <button class="btn "><i class="fa fa-linkedin "></i> LinkedIn</button>
-                    </a>
-                  </div>
-                </div>
-               <div class="col-md-2"></div>
-            </div>
-          </div>
-        </div>
-    </article>
-  </section>
   
   <footer>
     <a href="# ">HOME</a>
     <a href="#about ">ABOUT</a>
     <a href="#portfolio ">PORTFOLIO</a>
-    <a href="#contact ">CONTACT</a>
   </footer>
 
 
 <!-- modals -->
   <div class="modal" id="RipeTomatoModal" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-
-            <h4 class="modal-title">Ripe Tomatoes</h4>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-
-          </div>
-          <div class="modal-body">
-            <p>This app is a better movie recommendation engine. I worked in a team of 5 people to develop Ripe Tomatoes and continue to integrate more features as time goes on.</p>
-            <p>I Focused primarily on the backend setup however I helped with react front end integration when my coworkers couldn't achieve what they wanted.</p>
-            <h2>Technologies Utilized:
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Ripe Tomatoes</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="media">
+            <div class="media-left" style="width:15%">
+              <img src="Capture.PNG" alt="Ripe Tomatoes" class="img-responsive img-thumbnail media-object">
+            </div>
+            <div class="media-body" style="padding-left: 20px;">
+              <p>
+                This app is a better movie recommendation engine. I worked in a team of 5 people to develop Ripe Tomatoes and continue to integrate more features as time goes on.
+                I Focused primarily on the backend setup however I helped with react front end integration when my coworkers couldn't achieve what they wanted.
+              </p>
+              <h4>Technologies Utilized:</h4>
+              Front End:
               <ul>
                 <li>React</li>
-                <li>Node.js</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
               </ul>
-            </h2>
-            <form method="get" action="https://infinite-wave-67208.herokuapp.com/">
-              <button class="btn-primary portfolioLink">Live Site</button>
-            </form><form method="get" action="https://github.com/icmitchell/RipeTomatoes">
-              <button class="btn-primary portfolioLink">Github Repo</button>
-            </form>
+              Back End:
+              <ul>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>Passport.js</li>
+                <li>Surprise Python scikit</li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
+        <div class="modal-footer">
+          <form method="get"  action="https://infinite-wave-67208.herokuapp.com/">
+            <button class="btn btn-default">Live Site</button>
+          </form>
+
+          <form method="get" action="https://github.com/icmitchell/RipeTomatoes">
+            <button class="btn btn-default">Github Repo</button>
+          </form>
+
+          <form>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>           
+          </form>
         </div>
       </div>
     </div>
+  </div>
 
+  <div class="modal" id="LockedInModal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Locked-In</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="media">
+              <div class="media-left" style="width:15%">
+                <img src="Capture1.PNG" alt="Ripe Tomatoes" class="img-responsive img-thumbnail media-object">
+              </div>
+              <div class="media-body" style="padding-left: 20px;">
+                <p>
+                  This app is a password database. After creating a user account on our site you can then save your passwords in an encrypted database to access them from our chrome extension when logging into a new website
+                  I managed the entire back end of this project. I built user authentication and login persistance with Passport.js, Bcyrpt, and session cookies.
+                </p>
 
-    <!-- <form method="get" action="https://nameless-falls-24533.herokuapp.com/">
-      <button class="portfolioLink">Live Site</button>
-  </form>
-  <form method="get" action="https://github.com/icmitchell/Locked-In">
-      <button class="portfolioLink">Github Repo</button>
-</form> -->
+                <h4>Technologies Utilized:</h4>
 
+                Front End:
+                <ul>
+                    <li>Handlebars</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                </ul><br>
 
-<!-- <form method="get" action="https://icmitchell.github.io/Traffic-Cameras/">
-  <button class="portfolioLink">Live Site</button>
-</form>
-<form method="get" action="https://github.com/icmitchell/Traffic-Cameras">
-  <button class="portfolioLink">Github Repo</button>
-</form> -->
+                Back End:
+                <ul>
+                    <li>Node.js</li>
+                    <li>Passport.js</li>
+                    <li>Bcrypt</li>
+                    <li>Express.js</li>
+                    <li>session cookies</li>
+                </ul>
+              </div>
+          </div>
+        </div>
 
+        <div class="modal-footer">
+          <form method="get"  action="https://nameless-falls-24533.herokuapp.com/">
+            <button class="btn btn-default">Live Site</button>
+          </form>
+
+          <form method="get" action="https://github.com/icmitchell/Locked-In">
+            <button class="btn btn-default">Github Repo</button>
+          </form>
+
+          <form>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>           
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="TrafficCameraModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Traffic-Cameras</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <div class="modal-body">
+          <div class="media">
+            <div class="media-left" style="width:15%">
+              <img src="Capture2.PNG" alt="Ripe Tomatoes" class="img-responsive img-thumbnail media-object">
+            </div>
+            <div class="media-body" style="padding-left: 20px;">
+              <p>
+                This application is a tracker for all of the red light and speed cameras in Chicago. You can populate a google map frame with all the cameras near an address or see the cameras you will pass along a google maps route.
+                I mainly worked on the google maps api integration and calculations to populate a route with the cameras on the way.
+              </p>
+              <h4>Technologies Utilized:</h4>
+
+              Front End:
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+              </ul><br>
+
+              Back End:
+              <ul>
+                <li>Firebase</li>
+                <li>google maps apis</li>
+                <li>data.cityofchicago.org</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <form method="get"  action="https://icmitchell.github.io/Traffic-Cameras/">
+            <button class="btn btn-default">Live Site</button>
+          </form>
+
+          <form method="get" action="https://github.com/icmitchell/Traffic-Cameras">
+            <button class="btn btn-default">Github Repo</button>
+          </form>
+
+          <form>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>           
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

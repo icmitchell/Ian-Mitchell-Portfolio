@@ -15,7 +15,9 @@ p a{
   text-align: center;
   align-content: center;
 }
-
+#IanPicture {
+  transform: rotate(90deg);
+}
 
 .navbar {
   padding: 0;
@@ -26,9 +28,11 @@ p a{
   background-image: none;
 }
 /* ---------- Hero --------------- */
-
+.modal-dialog {
+  max-width: 80%;
+}
 #hero {
-  background: url("http://www.crestock.com/uploads/blog/wallpapers/set1/crestock-70406-1920x1200.jpg")50% 0 repeat fixed;
+  background: url("492866EA-8438-479B-AD87-5A2A5FC154AA.JPG")50% 0 repeat fixed;
   min-height: 1000px;
   background-size: cover;
   background-position: center;
@@ -66,7 +70,7 @@ p a{
 /*--------About----------*/
 
 #about {
-  background: url('https://40.media.tumblr.com/e2736bd0a1de23252c28a483a5539ce3/tumblr_nn6o6ca3DY1qzfsnio6_r1_1280.jpg')50% 0 repeat fixed;
+  background: url('Mcaffee knob.jpg')50% 0 repeat fixed;
   min-height: 1000px;
   background-position: center;
   background-size: cover;
