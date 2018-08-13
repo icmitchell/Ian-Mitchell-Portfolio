@@ -15,4 +15,4 @@ $(document).ready(function() {
 	$(".resumeClass").on("click", function() {
 		window.open("assets/Ian-Mitchell.pdf", '_blank');
 	})
-})
+});
